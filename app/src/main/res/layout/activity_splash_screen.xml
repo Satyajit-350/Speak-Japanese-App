@@ -13,9 +13,9 @@
         android:layout_height="382dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="18dp"
         android:layout_marginRight="18dp"
-        android:layout_marginTop="70dp"
         android:src="@drawable/logo" />
 
     <TextView
@@ -41,6 +41,25 @@
         android:textSize="16sp"
         android:textColor="@color/category_tab_texts"/>
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="179dp"
+        android:layout_height="171dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        app:srcCompat="@drawable/textboxmessage" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="188dp"
+        android:layout_height="74dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/japanese_name"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

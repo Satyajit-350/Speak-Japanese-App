@@ -21,8 +21,7 @@ public class splashScreen extends AppCompatActivity {
 
             public void run(){
                 try {
-
-                    sleep(1000);
+                    sleep(2000);
 
                 }catch (Exception e){
 
@@ -37,5 +36,10 @@ public class splashScreen extends AppCompatActivity {
                 }
             }
         };thread.start();
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
     }
 }
