@@ -12,5 +12,7 @@
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family</string>
 
+    <string name="Logo_name">Speak Japanese</string>
+
 
 </resources>

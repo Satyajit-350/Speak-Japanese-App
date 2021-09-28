@@ -10,27 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.satyajit.Speak_Japanese.ColorsActivity"
+            android:name=".ColorsActivity"
             android:label="@string/category_colors"
-            android:parentActivityName="com.satyajit.Speak_Japanese.MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="com.satyajit.Speak_Japanese.PhrasesActivity"
+            android:name=".PhrasesActivity"
             android:label="@string/category_phrases"
-            android:parentActivityName="com.satyajit.Speak_Japanese.MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="com.satyajit.Speak_Japanese.FamilyActivity"
+            android:name=".FamilyActivity"
             android:label="@string/category_family"
-            android:parentActivityName="com.satyajit.Speak_Japanese.MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="com.satyajit.Speak_Japanese.NumbersActivity"
+            android:name=".NumbersActivity"
             android:label="@string/category_numbers"
-            android:parentActivityName="com.satyajit.Speak_Japanese.MainActivity"/>
-        <activity android:name="com.satyajit.Speak_Japanese.MainActivity">
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".splashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
